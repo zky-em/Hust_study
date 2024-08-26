@@ -1,0 +1,40 @@
+{
+  "entryPagePath": "pages/home/home",
+
+  "pages": [
+    "pages/home/home",
+    "pages/fun/fun",
+    "pages/find/find",
+    "pages/profile/profile"
+  ],
+
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/assert/home1.png",
+      "selectedIconPath": "/assert/home2.png"
+    },
+
+    {"pagePath": "pages/fun/fun",
+      "text": "工具",
+      "iconPath": "/assert/tool.1.png",
+      "selectedIconPath": "/assert/tool2.png"
+    },
+
+    {"pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "/assert/发现.1.png",
+      "selectedIconPath": "/assert/发现.2.png"
+    }
+  ]},
+
+  "style": "v2",
+
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
