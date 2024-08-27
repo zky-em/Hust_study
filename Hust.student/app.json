@@ -34,8 +34,8 @@
 
     {"pagePath": "pages/profile/profile",
       "text": "我的",
-      "iconPath": "/assert/我的.png",
-      "selectedIconPath": "/assert/我的 (1).png"
+      "iconPath": "/assert/用户.png",
+      "selectedIconPath": "/assert/用户 (1).png"
     }
   ]},
 
