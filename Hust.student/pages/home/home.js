@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    test:'测试',
+    url:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food1.jpg",
+    swiperList:[
+      {id:1, image:"https://github.com/zky-em/Hust_study/blob/main/image/food1.jpg"}, {id:2,  image:"https://github.com/zky-em/Hust_study/blob/main/image/food2.jpg"}, {id:3, image:"https://github.com/zky-em/Hust_study/blob/main/image/food3.jpg"}
+    ]
   },
 
   /**
@@ -14,6 +18,8 @@ Page({
   onLoad(options) {
 
   },
+
+ 
 
   /**
    * 生命周期函数--监听页面初次渲染完成

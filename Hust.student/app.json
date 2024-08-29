@@ -9,8 +9,10 @@
   ],
 
   "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2b4d6b",
+    "navigationBarTitleText": "今日特色",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [{
