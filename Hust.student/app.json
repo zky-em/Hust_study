@@ -4,7 +4,9 @@
   "pages": [
     "pages/home/home",
     "pages/fun/fun",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/shoplist/shoplist",
+    "pages/detial/detial"
   ],
 
   "window": {
@@ -13,6 +15,7 @@
     "navigationBarTitleText": "今日特色",
     "navigationBarTextStyle": "white"
   },
+
   "tabBar": {
     "list": [{
       "pagePath": "pages/home/home",

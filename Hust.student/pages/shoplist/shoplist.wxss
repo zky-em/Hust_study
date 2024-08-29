@@ -1,0 +1,26 @@
+/* pages/shoplist/shoplist.wxss */
+.shop-list {
+  height: 330rpx;
+} 
+
+.shop-item {
+  border-bottom:2rpx solid #fff04d ;
+  border-left:2rpx solid #fff04d ;
+}
+
+.shop-item image{
+  width:320rpx;
+  height:180rpx;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  border-top: 4rpx solid #d1a13b;
+  border-left: 4rpx solid #d1a13b;
+  border-right: 4rpx solid #d1a13b;
+  border-bottom: 4rpx solid #d1a13b;
+  box-sizing: border-box;
+}
+
+.shop-item text{
+  font-size: 40rpx;
+
+}

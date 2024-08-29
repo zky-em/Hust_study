@@ -1,1 +1,24 @@
 /* pages/fun/fun.wxss */
+.canteen-list {
+  height: 330rpx;
+} 
+
+.canteen-item {
+  border-bottom:2rpx solid #95a3ad ;
+  border-left:2rpx solid #95a3ad ;
+}
+
+.canteen-item image{
+  width:320rpx;
+  height:180rpx;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  border-right: 4rpx solid #efefef;
+  border-bottom: 4rpx solid #efefef;
+  box-sizing: border-box;
+}
+
+.canteen-item text{
+  font-size: 40rpx;
+
+}

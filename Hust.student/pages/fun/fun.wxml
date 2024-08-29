@@ -1,2 +1,7 @@
 <!--pages/fun/fun.wxml-->
-<text>pages/fun/fun.wxml</text>
+<view class="canteen-list">
+  <navigator class="canteen-item" wx:for="{{canteenList}}" wx:key="id" url="/pages/shoplist/shoplist?id={{item.id}}&title={{item.name}}">
+    <image src="{{item.image}}"></image>
+    <text style="position: relative; left: 80rpx; top: -80rpx">{{item.name}}</text>
+  </navigator>
+</view>
