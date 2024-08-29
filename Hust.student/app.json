@@ -4,6 +4,7 @@
   "pages": [
     "pages/home/home",
     "pages/fun/fun",
+    "pages/cart/cart",
     "pages/profile/profile",
     "pages/shoplist/shoplist",
     "pages/detial/detial"
@@ -28,6 +29,12 @@
       "text": "更多",
       "iconPath": "/assert/更多.png",
       "selectedIconPath": "/assert/更多 (1).png"
+    },
+
+    {"pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "/assert/购物车.png",
+      "selectedIconPath": "/assert/购物车 (1).png"
     },
 
     {"pagePath": "pages/profile/profile",

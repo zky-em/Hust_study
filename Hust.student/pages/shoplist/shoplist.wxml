@@ -1,6 +1,6 @@
 <!--pages/shoplist/shoplist.wxml-->
 <view class="shop-list">
-  <navigator class="shop-item" wx:for="{{shopList}}" wx:key="id" url="/pages/detial/detial?id={{item.id}}&title={{item.name}}&price={{item.price}}">
+  <navigator class="shop-item" wx:for="{{shopList}}" wx:key="id" url="/pages/detial/detial?id={{item.id}}&title={{item.name}}&price={{item.price}}&image={{item.image}}">
     <image src="{{item.image}}"></image>
     <text style="position: relative; left: 80rpx; top: -100rpx">名称：{{item.name}}</text>
     <text style="position: relative; left: -150rpx; top: -30rpx">价格：{{item.price}}</text>
