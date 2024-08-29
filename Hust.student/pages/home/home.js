@@ -5,11 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-    test:'测试',
-    url:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food1.jpg",
     swiperList:[
-      {id:1, image:"https://github.com/zky-em/Hust_study/blob/main/image/food1.jpg"}, {id:2,  image:"https://github.com/zky-em/Hust_study/blob/main/image/food2.jpg"}, {id:3, image:"https://github.com/zky-em/Hust_study/blob/main/image/food3.jpg"}
-    ]
+      {id:1, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food1.jpg"},
+      {id:2, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food2.jpg"},
+      {id:3, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food3.jpg"},
+    ],
+
+    gridList:[
+      {id:1, name:"早餐", icon:"/assert/早餐1.png"},
+      {id:2, name:"正餐", icon:"/assert/正餐2.png"},
+      {id:3, name:"面食", icon:"/assert/面食3.png"},
+      {id:4, name:"西餐", icon:"/assert/西餐4.png"},
+      {id:5, name:"火锅", icon:"/assert/火锅5.png"},
+      {id:6, name:"快餐", icon:"/assert/快餐6.png"},
+      {id:7, name:"烧烤", icon:"/assert/烧烤7.png"},
+      {id:8, name:"饮品", icon:"/assert/饮品8.png"},
+      {id:9, name:"水果", icon:"/assert/水果9.png"},
+    ],
+
+    img_1:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food1.jpg",
+    img_2:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food2.jpg"
+
   },
 
   /**
@@ -18,8 +34,6 @@ Page({
   onLoad(options) {
 
   },
-
- 
 
   /**
    * 生命周期函数--监听页面初次渲染完成
