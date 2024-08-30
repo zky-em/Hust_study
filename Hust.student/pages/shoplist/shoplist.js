@@ -7,6 +7,9 @@ Page({
   data: {
     query:{},
     shopList:[
+      {id:1, name:"好东西", price:66, image:"/assert/食品_布丁.png"},
+      {id:2, name:"好吃的", price:2.5, image:"/assert/食品_杏仁.png"},
+      {id:3, name:"好喝的", price:6, image:"/assert/食品_鸡腿.png"},
     ],
     page:1, 
     pageSize:10,

@@ -1,1 +1,39 @@
 /* pages/detial/detial.wxss */
+.detail-info {
+  height: 400rpx;
+  border: 2rpx solid #efefef;
+}
+
+.detail-info image {
+  height: 300rpx;
+  width: 750rpx;
+}
+
+.detail-info view {
+  font-size: 40rpx;
+}
+
+
+.new-button {
+  border: 2rpx solid #efefef;
+}
+
+.new-button button {
+  border: 2rpx solid #efefef;
+}
+
+.new-text {
+  font-size: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+  border-radius: 5px; /* 按钮圆角 */
+  /* 可以添加其他样式，如边框、阴影等 */
+}

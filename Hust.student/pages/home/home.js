@@ -23,8 +23,8 @@ Page({
       {id:9, name:"水果", icon:"/assert/水果9.png"},
     ],
 
-    img_1:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food1.jpg",
-    img_2:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food2.jpg"
+    img_1:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/食物1.png",
+    img_2:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/食物2.png"
 
   },
 

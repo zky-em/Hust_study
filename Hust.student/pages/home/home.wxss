@@ -2,6 +2,7 @@
 
 swiper {
    height: 385rpx;  /*轮播图高度 */
+   border: 2rpx solid #efefef;
 }
 
 swiper image {
@@ -45,8 +46,10 @@ swiper image {
   display: flex;
   padding: 20rpx 10rpx;
   justify-content: space-around;
+  border: 2rpx solid #efefef;
 }
 
 .img-box image {
   width: 45%;
+  border: 2rpx solid #345069;
 }

@@ -9,6 +9,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/detial/detial",
+          "pathName": "pages/detial/detial",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/shoplist/shoplist",
           "pathName": "pages/shoplist/shoplist",
           "query": "",
