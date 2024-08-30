@@ -1,2 +1,5 @@
 // app.js
-App({})
+App({
+  cartList:[],
+  sumprice:0
+})

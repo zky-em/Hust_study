@@ -1,14 +1,14 @@
 <!--pages/detial/detial.wxml-->
 <view class="detail-info">
   <image src="{{product.image}}"></image>
-  <view class="item" style="width: 200rpx; height: 50rpx; display: block; box-sizing: border-box; position: relative; left: 120rpx; top: 0rpx">{{product.name}}</view>
-  <view class="item" style="width: 200rpx; height: 50rpx; display: block; box-sizing: border-box; position: relative; left: 430rpx; top: -50rpx">￥{{product.price}}</view>
+  <view style="width: 200rpx; height: 50rpx; display: block; box-sizing: border-box; position: relative; left: 120rpx; top: 0rpx">{{product.name}}</view>
+  <view style="width: 200rpx; height: 50rpx; display: block; box-sizing: border-box; position: relative; left: 430rpx; top: -50rpx">￥{{product.price}}</view>
 </view>
 
 <view class="new-button" style="width: 300rpx; height: 80rpx; display: block; box-sizing: border-box; position: relative; left: 225rpx; top: 100rpx">
-  <button bindtap="getNumber" data-x="1"  style="width: 100rpx; height: 80rpx; display: block; box-sizing: border-box; left: -100rpx; position: relative; top: -2rpx">
+  <button bindtap="getNumber" data-x="0"  style="width: 100rpx; height: 80rpx; display: block; box-sizing: border-box; left: -100rpx; position: relative; top: -2rpx">
     <view class="a-button">
-      +1
+      -1
     </view>
   </button>
   <view style="width: 100rpx; height: 80rpx; display: block; box-sizing: border-box; position: relative; left: 99rpx; top: -81rpx">
@@ -16,7 +16,7 @@
       {{number}}
     </view>
   </view> 
-  <button bindtap="getNumber" data-x="0" style="width: 100rpx; height: 80rpx; display: block; box-sizing: border-box; left: 100rpx; top: -160rpx; position: relative">
+  <button bindtap="getNumber" data-x="1" style="width: 100rpx; height: 80rpx; display: block; box-sizing: border-box; left: 100rpx; top: -161rpx; position: relative">
     <view class="a-button">
       +1
     </view>

@@ -1,1 +1,13 @@
 <!--pages/cart/cart.wxml-->
+<view class="cart-list">
+  <view class="cart-item" wx:for="{{cartList}}" wx:key="id">
+    <image src="{{item.image}}"></image>
+    <text style="position: relative; left: 80rpx; top: -100rpx">名称：{{item.name}}</text>
+    <text style="position: relative; left: -150rpx; top: -30rpx">价格：{{item.price}}</text>
+    <text style="position: relative; left: -150rpx; top: -30rpx">价格：{{item.number}}</text>
+  </view>
+</view>
+
+<view>
+{{price}}
+</view>
