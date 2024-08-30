@@ -6,9 +6,9 @@ Page({
    */
   data: {
     swiperList:[
-      {id:1, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food1.jpg"},
-      {id:2, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food2.jpg"},
-      {id:3, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/food3.jpg"},
+      {id:1, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/tmp5FD2.png"},
+      {id:2, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/tmpCDC.png"},
+      {id:3, image:"https://cdn.jsdelivr.net/gh/zky-em/Hust_study@main/image/tmpF5F1.png"},
     ],
 
     gridList:[
